@@ -4,7 +4,8 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            var book = new Book(1, "Fairytale", 250, BookTypes.Novel);
+            Console.WriteLine(book);
         }
     }
 }
