@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Library.Models
+﻿namespace Library.Models
 {
-    internal class Student
+    public class Student : User
     {
+        public Student(string name) : base(name)
+        {
+            
+        }
     }
 }
