@@ -1,4 +1,4 @@
-﻿namespace Library
+﻿namespace Library.Models
 {
     public class CD : Item
     {

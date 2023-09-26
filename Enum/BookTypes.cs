@@ -1,4 +1,4 @@
-﻿namespace Library
+﻿namespace Library.Enum
 {
     public enum BookTypes
     {

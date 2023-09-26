@@ -1,10 +1,12 @@
-﻿namespace Library
+﻿using Library.Enum;
+
+namespace Library.Models
 {
     public class Book : Item
     {
         public int NumberOfPages { get; set; }
         public BookTypes BookType;
-        public Book(int id, string name, int numberOfPages, BookTypes bookType) : base(id, name) 
+        public Book(int id, string name, int numberOfPages, BookTypes bookType) : base(id, name)
         {
             NumberOfPages = numberOfPages;
             BookType = bookType;
